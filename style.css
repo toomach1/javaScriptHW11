@@ -1,0 +1,47 @@
+.flex-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato';
+}
+
+.productOne {
+    margin-block-end: 42px;
+    padding: 40;
+    display: flex;
+    box-shadow: 20px 20px 20px rgba(51, 49, 49, 0.164);
+}
+
+.price {
+    color: #EF5B70;
+}
+
+.imgProduct {
+    padding-right: 31px;
+    display: flex;
+}
+
+.description {
+    width: 390px;
+}
+
+.name {
+    margin: 0;
+    margin-block-end: 42px;
+}
+.quantity{
+    
+    border: 1px solid rgba(62, 57, 57, 0.15);
+    padding-inline: 15px;
+    margin-left: 40px;
+}
+.nameProduct{
+    width: 200px;
+    height: 58px;
+}
+.closer{
+    padding-top: 28px;
+    padding-right: 28px;
+}
